@@ -1,0 +1,581 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="keywords" content="gazeta online, espírito santo, vitória, notícias, entretenimento, diversão, saúde, política, educação, esportes, capixaba, futebol, eu aqui, você ag, blogs, classificadões, revista ag, a gazeta, jornal" />
+
+
+<meta property="og:title" content="Gazeta Online"/>
+<meta property="og:site_name" content="Gazeta Online"/>
+<meta property="og:type" content="article"/>
+<meta property="og:image" content="http://classificadoes.com.br/img/nero-capa.png"/>
+<meta property="og:description" content="COMPRE, VENDA OU TROQUE COM O CLASSIFICADÕES DE A GAZETA. AQUI VOCÊ TEM RESULTADO."/>
+<meta property="og:url" content="http://classificadoes.com.br/" />    
+
+
+<!--[if lt IE 7]>
+<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE7.js"></script>
+<![endif]-->
+
+
+<!-- CSS -->
+<link rel="stylesheet" media="screen" href="css/gol-desktop.css" />
+<link rel="stylesheet" media="screen" href="css/interna.css" />
+<!--[if IE]>
+    <link rel="stylesheet" media="screen" href="css/gol-desktopIE.css" />
+<![endif]--> 
+<link rel="stylesheet" media="screen" href="css/responsivo.css" />
+<link rel="stylesheet" media="screen" href="css/sly.horizontal.css" />
+<!-- //////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+
+
+<!-- JS -->
+<script type="text/javascript" language="javascript" src="js/jquery-1.10.2.min.js"></script>
+<!--[if IE]>
+<script type="text/javascript" language="javascript" src="js/responsivo.ie.js"></script>
+<![endif]-->
+<script type="text/javascript" language="javascript" src="js/sly.plugins.js"></script>
+<script type="text/javascript" language="javascript" src="js/sly.min.js"></script>
+<script type="text/javascript" language="javascript" src="js/sly.controle.js"></script>
+<script type="text/javascript" language="javascript" src="js/functions.js"></script>
+
+<title>Gazeta Online - O maior portal do Espírito Santo</title>
+</head>
+<body>  
+
+<!-- SOCIAL -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1&appId=456105211143195";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script type="text/javascript">
+  window.___gcfg = {lang: 'pt-BR'};
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<!-- ##################### -->
+<script>
+$(function(){
+    $('.thumb').click(function(){
+        $('#galeria').attr('src',$(this).attr('img-x'));
+    })
+})
+</script>
+<div id="prevSite" class="navEditoria transition">
+    <div class="boxPadrao arrow transition"></div>
+    <div class="boxPadrao title transition texto-cinza_claro">especiais</div>
+</div>
+<div id="nextSite" class="navEditoria transition">
+    <div class="boxPadrao arrow transition"></div>
+    <div class="boxPadrao title transition texto-azul_escuro">NOTÍCIAS</div>
+</div>
+
+
+
+<div id="barra-fixa">
+    <div id="barra-topo-logo" class="hidden-mob">
+        <div class="container">
+            <ul class="navbar pull-left">
+                <li class="ftchildFix"><a href="#"><img src="img/logo_gol.png"></a></li>
+                <li class="ltchildFix"><a href="#">VERSÃO IMPRESSA</a></li>
+            </ul>
+            <ul class="navbar pull-right">
+                <li class="ftchildFix"><img src="img/user_noimg.png" /></li>
+                <li><a href="#">ENTRAR</a></li>
+                <li><a href="#">CADASTRE-SE</a></li>
+                <li class="ltchildFix">
+                    <img src="img/banner-lorege.jpg" />
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <div id="barra-topo-menu" class="bordaMenu-azul_claro">      
+      <div class="container">
+        <ul class="navbar pull-left hidden-dsk" id="logo_reduzida">
+            <li class="logo_vert"><img src="img/logo_gol_vert.png"></li>
+        </ul>
+        <ul class="navbar navbar-menu pull-left">              
+            <li class="texto-azul_claro active"><a href="#">Capa</a></li>
+            <li class="texto-azul_escuro"><a href="#">Notícias</a></li>
+            <li class="texto-roxo_escuro"><a href="#">Entretenimento</a></li>
+            <li class="texto-verde_escuro"><a href="#">Esportes</a></li>
+            <li class="texto-vermelho_claro"><a href="#">Eu aqui</a></li>
+
+            <li class="texto-azul_escuro menu">
+                <a href="#">
+                    <span class="menu_title">Mais</span>
+                    <span class="icongol-small-arrowdown"></span>
+                    <h6 class="menu-magic"></h6>
+                </a>
+
+                <div class="submenu">
+                  <ul>
+                    <li><a href="#">Multimidia</a></li>
+                    
+                    <li><a href="#">Blogs e Colunas</a></li>
+                    <li><a href="#">Especiais</a></li>
+                  </ul>  
+                </div>
+            </li>
+                       
+        </ul> 
+        <div id="search-top">
+            <span class="logo_vert pull-left"><img src="img/logo_gol_vert.png"></span>
+            <span id="btn-search-top"></span>
+            <form id="form-search" method="POST" action="" class="pull-left">
+                <input type="text" name="" id="input-search" placeholder="PESQUISAR" />
+            </form>
+            <span id="btn-closesearch">X</span>
+        </div>
+      </div>
+    </div>
+</div>
+<div id="wrap" style="background-image:url(img/listrado-dark.png)">
+    <div class="container bg-branco box-shadow cinema" align="center">
+        <!-- GRADE -->
+        <div align="left">
+            <!-- COLUNA 0 -->
+            <br/>
+                    <!-- Título-->
+                    <div class="interna-coluna_esquerda">
+                        <div class="tituloBloco">
+                            <!-- FOTO -->
+                            <div class="moldura">
+                                <img src="img/brilho.jpg" width="210px">
+                                <p class="tituloFoto-small">Foto: Reprodução</p>
+                            </div>
+                            <!--  -->
+                        </div>
+                        
+                        <h1><strong>Brilho eterno de uma mente sem lembrança</strong></h1>
+                        <div class="info_filme">
+                            <p><label>Duração: </label>113 min</p>
+                            <p><label>Gênero: </label>Comédia</p>
+                            <p><label>Classificação: </label>10 anos</p>
+                            <p><label>Ano: </label>2012</p>
+                            <p><label>Site: </label> <a href="#" class="texto-azul_claro"><strong>www.brilhoeterno.com.br</strong></a></p>
+                            <p><label>Diretor: </label>Bruno Gagliasso, Leandra Leal, Danilo Gentili</p>
+                            <p><label>Nome original: </label>Idem, Brasil</p>
+                            <p><label>Nossa Avaliação: </label><img src="img/star.png"></p>
+                        </div>
+                        <br clear="all"/>
+                    	<div class="boxFonte">
+                        	<div class="float_r">
+                            	<a href="#"><img src="img/btLer2.png" title="Ler depois"></a>
+                                &nbsp;
+                                <a href="#"><img src="img/btFacebook.png" title="Facebook"></a>
+                                &nbsp;
+                                <a href="#"><img src="img/btTwitter.png" title="Twitter" ></a>
+                                &nbsp;
+                                <a href="#"><img src="img/btEnviar.png" title="Enviar"></a>
+                            </div>
+                            <!-- Fonte -->
+                            <div class="infoFonte">
+                                <p class="texto-cinza_escuro">
+                                    <strong>1520</strong> QUERO VER
+                                    <label>VOTADO</label>
+                                   
+                                </p>
+                                <p class="texto-azul_claro">
+                                    <strong>615</strong> GOSTEI
+                                </p>
+                                <p class="texto-azul_claro">
+                                    <strong>21</strong> NÃO GOSTEI
+                                </p>
+                                <br clear="all"/>
+                            </div>
+                            <!--  -->
+                        </div>
+                        <div class="sinopse">
+                            <h3>Sinopse</h3><br/>
+                            <h4>
+                                Joel (Jim Carrey) e Clementine (Kate Winslet) formavam um casal que durante anos tentavam fazer com que o relacionamento desse certo. Desiludida com o fracasso, Clementine decide esquecer Joel para sempre e, para tanto, aceita se submeter a um tratamento experimental, que retira de sua memória os momentos vividos com ele. Após saber de sua atitude Joel entra em depressão, frustrado por ainda estar apaixonado por alguém que quer esquecê-lo. Decidido a superar a questão, Joel também se submete ao tratamento experimental. Porém ele acaba desistindo de tentar esquecê-la e começa a encaixar Clementine em momentos de sua memória os quais ela não participa.
+                            </h4>
+                        </div>
+                        <div class="col-Cartaz">
+                            <h4>EM CARTAZ NOS CINEMAS</h4>
+                            <p>
+                                Programação do dia <strong>04/10/13</strong> a <strong>11/10/2013</strong>, sujeita a alterações sem aviso prévio e sob responsabilidade dos próprios cinemas
+                            </p>
+                            <br/>
+                            <div class="boxPadrao boxTexto boxGrade">
+                                <div class="tituloBloco">
+                                    <img src="img/cine1.png" class="logo" align="right">
+                                    <h5>Cinemark - Shopping Vitória </h5><img src="img/interrog.png"><br/>
+                                    Sala 1: 12h45, 14h50, 19h30, 0h10 (sexta e sábado).<br/>
+                                    Sala 3 (dub): 19h30
+                                </div><br/>
+
+                            </div>
+                            <div class="boxPadrao boxTexto boxGrade">
+                                <div class="tituloBloco">
+                                    <img src="img/cine2.png" class="logo" align="right">
+                                    <h5>Cinemark - Shopping Vitória </h5><img src="img/interrog.png"><br/>
+                                    Sala 1: 12h45, 14h50, 19h30, 0h10 (sexta e sábado).<br/>
+                                    Sala 3 (dub): 19h30
+                                </div><br/>
+                            </div>
+                            <div class="boxPadrao boxTexto boxGrade">
+                                <div class="tituloBloco">
+                                    <img src="img/cine3.png" class="logo" align="right">
+                                    <h5>Cinemark - Shopping Vitória </h5><img src="img/interrog.png"><br/>
+                                    Sala 1: 12h45, 14h50, 19h30, 0h10 (sexta e sábado).<br/>
+                                    Sala 3 (dub): 19h30
+                                </div><br/>
+                            </div>
+                            <div class="boxPadrao boxTexto boxGrade">
+                                <div class="tituloBloco">
+                                    <img src="img/cine4.png" class="logo" align="right">
+                                    <h5>Cinemark - Shopping Vitória </h5><img src="img/interrog.png"><br/>
+                                    Sala 1: 12h45, 14h50, 19h30, 0h10 (sexta e sábado).<br/>
+                                    Sala 3 (dub): 19h30
+                                </div><br/>
+                            </div>
+                            <div class="boxPadrao boxTexto boxGrade">
+                                <div class="tituloBloco">
+                                    <img src="img/cine5.png" align="right">
+                                    <h5>Cinemark - Shopping Vitória </h5><img src="img/interrog.png"><br/>
+                                    Sala 1: 12h45, 14h50, 19h30, 0h10 (sexta e sábado).<br/>
+                                    Sala 3 (dub): 19h30
+                                </div><br/>
+                            </div>
+                        </div>
+                        <!-- TRAILLER / CRITICAS -->
+                        <div id="col-Trailler">
+                            <h1><strong>Trailler</strong></h1>
+                            <iframe width="630" height="385" src="//www.youtube.com/embed/fNjP8ZT5teY" frameborder="0" allowfullscreen></iframe>
+                            
+                            <!-- criticas -->
+                            <div class="col-Criticas">
+                                <h1><strong>Criticas e reviews</strong></h1>
+                                <div class="col-write_criticas">
+                                    <img src="img/avioes.jpg" width="100px" align="left">
+                                    <strong>Rubens Edwald Filho</strong> | Crítico de Cinema, São Paulo<br/>
+                                    Avaliaçãodo filme: <img src="img/star.png"><br/>
+                                    <div class="description texto-cinza_claro">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt neque lorem, vitae porttitor leo luctus sit amet. Quisque egestas eget sapien at porta. Fusce in magna gravida, interdum orci eu, lacinia sem. Curabitur tincidunt ac ipsum ut 
+                                            sodales. Curabitur pretium ultrices nisi, nec volutpat leo pretium at.
+                                    </div>
+                                </div>
+                                <br clear="all"/>
+                            </div>
+                            <div class="col-Criticas">
+                                <h1><strong>Criticas e reviews</strong></h1>
+                                <div class="col-write_criticas">
+                                    <img src="img/avioes.jpg" width="100px" align="left">
+                                    <strong>Rubens Edwald Filho</strong> | Crítico de Cinema, São Paulo<br/>
+                                    Avaliaçãodo filme: <img src="img/star.png"><br/>
+                                    <div class="description texto-cinza_claro">
+                                        <div class="fixPos">
+                                            <iframe width="250" height="150" src="//www.youtube.com/embed/fNjP8ZT5teY" frameborder="0" allowfullscreen></iframe>
+                                        </div>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt neque lorem, vitae porttitor leo luctus sit amet. Quisque egestas eget sapien at porta. Fusce in magna gravida, interdum orci eu, lacinia sem. Curabitur tincidunt ac ipsum ut 
+                                            sodales. Curabitur pretium ultrices nisi, nec volutpat leo pretium at.
+                                    </div>
+                                </div>
+                                <br clear="all"/>
+                            </div>
+                            <br/><br/>
+                            <!-- FACEBOOK COMENTÁRIOS -->
+                                <div class="col-title texto-cinza_escuro" style="width:400px;">
+                                    <div class="tituloInterno">
+                                        <div style="float:left">
+                                            COMENTE
+                                        </div>
+                                        <p  class="titulo-comentario" align="right">
+                                            Os comentários são de responsabilidade única dos autores
+                                        </p>
+                                    </div>
+                                    <div class="fb-comments" data-href="http://gazetaonline.globo.com/_conteudo/2013/11/noticias/cidades/1469124-vitima-reage-a-assalto-e-fere-adolescente-que-tentou-roubar-moto-com-facada.html" data-numposts="5" data-colorscheme="light"></div>
+                                </div>
+                             <!--  -->
+                        </div>
+                        <!--  -->
+
+                    </div>
+                    
+                    <!-- COLUNA 1 -->
+                    <div class="col-esquerda cinema">
+
+                        <!-- ENTRETENIMENTO -->
+                    	<div class="fundoColuna">
+                            <div class="col-Titulo cima">
+                                <div class="titulo-esquerda">
+                                    VEJA MAIS EM
+                                </div>
+                                <div class="titulo-direita texto-roxo_escuro">
+                                    <strong>ENTRETENIMENTO ></strong>
+                                </div>
+                                <br clear="all"/>
+                            </div>
+                            <div class="bg-branco">
+                            	<h4><strong><a href="#">Lutadores de MMA são os mais bem pagos da atualidade</strong></a></h4>
+                            </div>
+                        </div>
+                        <br/>
+
+                        <!-- EM CARTAZ -->
+                        <div class="fundoColuna" style="padding:2px;border:solid 1px #ddd">
+                            <div class="col-Titulo baixo">
+                                <div class="titulo-esquerda">
+                                    EM CARTAZ
+                                </div>
+                                <div class="titulo-direita texto-roxo_escuro">
+                                    CINEMA
+                                </div>
+                                <br clear="all"/>
+                            </div>
+                            <div class="bg-branco">
+                                <div class="row" id="indicadores" style="width:260px">
+                                    <div id="indicBoxL" style="width:260px;">
+                                        <ul class="navbar navbar-menu pull-left">
+                                            <li class="menu" id="indic-left" style="width:260px;">
+                                                <a href="#">
+                                                    <span class="menu_title">Todos os cinemas</span>
+                                                    <span class="icongol-small-arrowdown pull-right"></span>
+                                                </a>
+                                                <span class="menu-magic"></span>
+                                                <div class="submenu">
+                                                    <ul>
+                                                        <li><a href="#">FILMES</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <table width="100%">
+                                    <tr height="70px">
+                                        <td align="left" width="15px">
+                                            <img src="img/elysium.jpg" width="100px">
+                                        </td>
+                                        <td align="left" valign="top">
+                                            <div class="padding">
+                                                <h4><strong>Elysium</strong></h4><br/>
+                                                Aventura / Fantasia<br/>
+                                                120 min<br/>
+                                                <img src="img/star.png">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr height="70px">
+                                        <td align="left" width="15px">
+                                            <img src="img/indiana.png" width="100px">
+                                        </td>
+                                        <td align="left" valign="top">
+                                            <div class="padding">
+                                                <h4><strong>Indiana Jones</strong></h4><br/>
+                                                Aventura / Fantasia<br/>
+                                                120 min<br/>
+                                                <img src="img/star.png">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr height="70px">
+                                        <td align="left" width="15px">
+                                            <img src="img/avioes.jpg" width="100px">
+                                        </td>
+                                        <td align="left" valign="top">
+                                            <div class="padding">
+                                                <h4><strong>Aviões</strong></h4><br/>
+                                                Aventura / Fantasia<br/>
+                                                120 min<br/>
+                                                <img src="img/star.png">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr height="70px">
+                                        <td align="left" width="15px">
+                                            <img src="img/elysium.jpg" width="100px">
+                                        </td>
+                                        <td align="left" valign="top">
+                                            <div class="padding">
+                                                <h4><strong>Elysium</strong></h4><br/>
+                                                Aventura / Fantasia<br/>
+                                                120 min<br/>
+                                                <img src="img/star.png">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr height="70px">
+                                        <td align="left" width="15px">
+                                            <img src="img/indiana.png" width="100px">
+                                        </td>
+                                        <td align="left" valign="top">
+                                            <div class="padding">
+                                                <h4><strong>Indiana Jones</strong></h4><br/>
+                                                Aventura / Fantasia<br/>
+                                                120 min<br/>
+                                                <img src="img/star.png">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr height="70px">
+                                        <td align="left" width="15px">
+                                            <img src="img/avioes.jpg" width="100px">
+                                        </td>
+                                        <td align="left" valign="top">
+                                            <div class="padding">
+                                                <h4><strong>Aviões</strong></h4><br/>
+                                                Aventura / Fantasia<br/>
+                                                120 min<br/>
+                                                <img src="img/star.png">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr height="70px">
+                                        <td align="left" width="15px">
+                                            <img src="img/elysium.jpg" width="100px">
+                                        </td>
+                                        <td align="left" valign="top">
+                                            <div class="padding">
+                                                <h4><strong>Elysium</strong></h4><br/>
+                                                Aventura / Fantasia<br/>
+                                                120 min<br/>
+                                                <img src="img/star.png">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr height="70px">
+                                        <td align="left" width="15px">
+                                            <img src="img/indiana.png" width="100px">
+                                        </td>
+                                        <td align="left" valign="top">
+                                            <div class="padding">
+                                                <h4><strong>Indiana Jones</strong></h4><br/>
+                                                Aventura / Fantasia<br/>
+                                                120 min<br/>
+                                                <img src="img/star.png">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr height="70px">
+                                        <td align="left" width="15px">
+                                            <img src="img/avioes.jpg" width="100px">
+                                        </td>
+                                        <td align="left" valign="top">
+                                            <div class="padding">
+                                                <h4><strong>Aviões</strong></h4><br/>
+                                                Aventura / Fantasia<br/>
+                                                120 min<br/>
+                                                <img src="img/star.png">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <br/>
+                        <!-- PUBLICIDADE -->
+                        <!--
+                        <div>
+                            <span>PUBLICIDADE</span>
+                            <a href="#"><img src="img/banner1.png"></a>
+                        </div>
+                    -->
+                    </div>
+                    <!--  -->
+              </div>
+        </div>
+        <!-- SEGUNDA PARTE -->
+        <div class="wrap" align="center" style="padding-bottom:30px;margin-top:20px">
+            <div class="box-shadow" align="left">
+                <div class="col-bot">
+                    <div class="tituloInterno">
+                        LEIA MAIS
+                    </div>
+                </div>
+                <br clear="all"/>
+                <br/>
+                <br/>
+                <!-- LEIA -->
+                <div class="box">
+                    <h4>Separamos um conteúdo especial para você, baseado em suas leituras recentes.</h4>
+                    <p align="center" class="pull-down"><input type="button" value="ACESSAR MINHA CONTA" name="acessar" class="bt-acesso"></p>
+                </div>
+               
+                <!--  -->
+
+                <!-- DIREITA -->
+                <div class="boxPadrao boxFoto boxGrade">
+                    <div class="headerBloco">
+                        <div class="row">
+                            <span class="pull-left"><span class="icon-camera"></span></span>
+                            <span class="lerdepois pull-right texto-branco"><span class="hide">LER DEPOIS</span> <span class="icon-plus"></span></span>
+                        </div>    
+                    </div>
+
+                    <div class="footerBloco">
+                        <span class="nomeSessao texto-verde_escuro">NOVO IPHONE</span>
+                        <div class="tituloBloco">
+                            <h4>Lançamento do novo iPhone 5S cria enormes filas em frente a lojas</h4>
+                        </div>
+                    </div>
+
+                    <div class="imagemBloco boxRow3 boxCol1">
+                        <img src="img/loja.jpg" width="400px"/>
+                    </div>
+                </div>
+                <!--  -->
+
+                <!-- MEIO I -->
+                <div class="box fixPos">
+                    <div class="boxPadrao boxTexto boxGrade" align="center">
+                        <div class="sessaoBloco">
+                            <div class="row">
+                                <span class="pull-left texto-azul_claro"><span class="nomeSessao">CENTRO COMERCIAL</span></span>
+                                <span class="lerdepois pull-right"><span class="hide">LER DEPOIS</span> <span class="icon-plus"></span></span>
+                            </div>    
+                        </div>
+
+                        <div class="tituloBloco" align="left">
+                            <h4>Presos de <strong>alta periculosidade</strong> voltam ao Estado</h4>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+
+                <!-- MEIO II -->
+                <div class="box" style="margin-left:0px;width:350px">
+                    <div class="boxPadrao boxTexto boxGrade" align="center">
+                        <div class="sessaoBloco">
+                            <div class="row">
+                                <span class="pull-left texto-azul_claro"><span class="nomeSessao">CENTRO COMERCIAL</span></span>
+                                <span class="lerdepois pull-right"><span class="hide">LER DEPOIS</span> <span class="icon-plus"></span></span>
+                            </div>    
+                        </div>
+
+                        <div class="tituloBloco" align="left">
+                            <h4>Presos de <strong>alta periculosidade</strong> voltam ao Estado</h4>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <br clear="all"/>
+                <br/>
+            </div>
+        </div>
+        <!--  -->
+    </div>
+</div>
+<!-- footer -->
+<script type="text/javascript" language="javascript" src="js/controle.js"></script>
+</body>
+</html>
+

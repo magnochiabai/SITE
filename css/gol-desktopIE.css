@@ -1,0 +1,17 @@
+.ltchildFix {
+
+}
+
+#barra-topo-logo .navbar.pull-left .ftchildFix {
+	padding-top: 35px;
+}
+#barra-topo-logo .navbar.pull-left .ltchildFix {
+	padding-top: 39px;
+}
+#barra-topo-logo .navbar.pull-right .ltchildFix {
+	padding-right: 0;
+	padding-top: 15px;
+}
+#barra-topo-logo .navbar.pull-right .ftchildFix {
+	padding-top: 33px;
+}

@@ -1,0 +1,109 @@
+/* menus 
+=============================================================*/
+
+.navbar {
+	position: relative;		
+}
+.navbar li {
+	display: inline;
+	padding: 15px;
+	float: left;
+}
+.navbar-menu li {
+	padding: 5px;	
+}
+.navbar-menu li.menu.active {	
+	background-image: url('../img/borda.png');
+	padding-bottom: 0;
+}
+.navbar-menu li.menu.active a {
+	background-color: #F5F5F5 !important;
+}
+.navbar-menu li a {
+	padding: 10px 5px;
+	background-color: #FFF;
+	display: block;	
+	font-family: "ProximaNova-Bold",sans-serif;
+}
+.navbar-menu li.menu a {
+	opacity: 1 !important;
+}
+.submenu {
+	position: absolute;
+	display: none;
+}
+.menu.active {
+	position: relative;
+	-webkit-border-radius: 3px 3px 0 0;
+	-moz-border-radius: 3px 3px 0 0;
+	-ms-border-radius: 3px 3px 0 0;
+	-o-border-radius: 3px 3px 0 0;
+	border-radius: 3px 3px 0 0;
+}
+.menu.active .submenu {
+	display: block;
+	margin-top: 0px;
+	-webkit-border-radius: 0 0 3px 3px;
+	-moz-border-radius: 0 0 3px 3px;
+	-ms-border-radius: 0 0 3px 3px;
+	-o-border-radius: 0 0 3px 3px;
+	border-radius: 0 0 3px 3px;
+}
+.menu-magic {
+	display: none;
+}
+.menu.active .menu-magic {
+	background: #F5F5F5;
+	height: 5px;
+	left: 5px;
+	right: 5px;
+	position: absolute;
+	display: block;	
+	bottom: -5px;
+	z-index: 110;
+}
+
+
+
+.menu_title {
+	font-size: 13px;
+}
+.menu_title, .menu_stitle {
+	margin-left: 5px;
+}
+.menu_info {
+	font-size: 13px;
+}
+.menu_title, .menu_info {
+	font-weight: 700;
+	display: inline;
+}
+
+.submenu {
+	background-image: url('../img/borda.png');	
+	z-index: 109;
+	width:100%;
+	padding: 5px;
+	min-width: 200px;
+	margin-top: -5px;
+	margin-left: -5px;
+}
+.submenu li {
+	float: none;
+	display: block;
+	padding: 0;
+}
+.submenu li:hover, li.menu {
+	border: none !important;
+}
+.submenu li a {
+	padding-left: 10px !important;
+	padding-right: 0 !important;
+}
+
+
+@media (max-width: 989px) {
+	.logo_vert {
+		padding: 15px 15px 0 0 !important;
+	}
+}

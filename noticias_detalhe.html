@@ -1,0 +1,497 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="keywords" content="gazeta online, espírito santo, vitória, notícias, entretenimento, diversão, saúde, política, educação, esportes, capixaba, futebol, eu aqui, você ag, blogs, classificadões, revista ag, a gazeta, jornal" />
+
+
+<meta property="og:title" content="Gazeta Online"/>
+<meta property="og:site_name" content="Gazeta Online"/>
+<meta property="og:type" content="article"/>
+<meta property="og:image" content="http://classificadoes.com.br/img/nero-capa.png"/>
+<meta property="og:description" content="COMPRE, VENDA OU TROQUE COM O CLASSIFICADÕES DE A GAZETA. AQUI VOCÊ TEM RESULTADO."/>
+<meta property="og:url" content="http://classificadoes.com.br/" />    
+
+
+<!--[if lt IE 7]>
+<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE7.js"></script>
+<![endif]-->
+
+
+<!-- CSS -->
+<link rel="stylesheet" media="screen" href="css/gol-desktop.css" />
+<link rel="stylesheet" media="screen" href="css/interna.css" />
+<!--[if IE]>
+    <link rel="stylesheet" media="screen" href="css/gol-desktopIE.css" />
+<![endif]--> 
+<link rel="stylesheet" media="screen" href="css/responsivo.css" />
+<link rel="stylesheet" media="screen" href="css/sly.horizontal.css" />
+<!-- //////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+
+
+<!-- JS -->
+<script type="text/javascript" language="javascript" src="js/jquery-1.10.2.min.js"></script>
+<!--[if IE]>
+<script type="text/javascript" language="javascript" src="js/responsivo.ie.js"></script>
+<![endif]-->
+<script type="text/javascript" language="javascript" src="js/sly.plugins.js"></script>
+<script type="text/javascript" language="javascript" src="js/sly.min.js"></script>
+<script type="text/javascript" language="javascript" src="js/sly.controle.js"></script>
+<script type="text/javascript" language="javascript" src="js/functions.js"></script>
+
+<title>Gazeta Online - O maior portal do Espírito Santo</title>
+</head>
+<body>  
+
+<!-- SOCIAL -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1&appId=456105211143195";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script type="text/javascript">
+  window.___gcfg = {lang: 'pt-BR'};
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<!-- ##################### -->
+<script>
+$(function(){
+    $('.thumb').click(function(){
+        $('#galeria').attr('src',$(this).attr('img-x'));
+    })
+})
+</script>
+<div id="prevSite" class="navEditoria transition">
+    <div class="boxPadrao arrow transition"></div>
+    <div class="boxPadrao title transition texto-cinza_claro">especiais</div>
+</div>
+<div id="nextSite" class="navEditoria transition">
+    <div class="boxPadrao arrow transition"></div>
+    <div class="boxPadrao title transition texto-azul_escuro">NOTÍCIAS</div>
+</div>
+
+
+
+<div id="barra-fixa">
+    <div id="barra-topo-logo" class="hidden-mob">
+        <div class="container">
+            <ul class="navbar pull-left">
+                <li class="ftchildFix"><a href="#"><img src="img/logo_gol.png"></a></li>
+                <li class="ltchildFix"><a href="#">VERSÃO IMPRESSA</a></li>
+            </ul>
+            <ul class="navbar pull-right">
+                <li class="ftchildFix"><img src="img/user_noimg.png" /></li>
+                <li><a href="#">ENTRAR</a></li>
+                <li><a href="#">CADASTRE-SE</a></li>
+                <li class="ltchildFix">
+                    <img src="img/banner-lorege.jpg" />
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <div id="barra-topo-menu" class="bordaMenu-azul_claro">      
+      <div class="container">
+        <ul class="navbar pull-left hidden-dsk" id="logo_reduzida">
+            <li class="logo_vert"><img src="img/logo_gol_vert.png"></li>
+        </ul>
+        <ul class="navbar navbar-menu pull-left">              
+            <li class="texto-azul_claro active"><a href="#">Capa</a></li>
+            <li class="texto-azul_escuro"><a href="#">Notícias</a></li>
+            <li class="texto-roxo_escuro"><a href="#">Entretenimento</a></li>
+            <li class="texto-verde_escuro"><a href="#">Esportes</a></li>
+            <li class="texto-vermelho_claro"><a href="#">Eu aqui</a></li>
+
+            <li class="texto-azul_escuro menu">
+                <a href="#">
+                    <span class="menu_title">Mais</span>
+                    <span class="icongol-small-arrowdown"></span>
+                    <h6 class="menu-magic"></h6>
+                </a>
+
+                <div class="submenu">
+                  <ul>
+                    <li><a href="#">Multimidia</a></li>
+                    
+                    <li><a href="#">Blogs e Colunas</a></li>
+                    <li><a href="#">Especiais</a></li>
+                  </ul>  
+                </div>
+            </li>
+                       
+        </ul> 
+        <div id="search-top">
+            <span class="logo_vert pull-left"><img src="img/logo_gol_vert.png"></span>
+            <span id="btn-search-top"></span>
+            <form id="form-search" method="POST" action="" class="pull-left">
+                <input type="text" name="" id="input-search" placeholder="PESQUISAR" />
+            </form>
+            <span id="btn-closesearch">X</span>
+        </div>
+      </div>
+    </div>
+</div>
+<div id="wrap" style="background-image:url(img/listrado-dark.png)">
+    <div class="container bg-branco box-shadow" align="center">
+        <!-- GRADE -->
+        <div align="left">
+            <!-- COLUNA 0 -->
+            <br/>
+                	<div class="row pushdown hidden-mob" align="center">
+                        <img src="img/fullbanner.png">
+                    </div>
+                    
+                    <!-- Título da notícia -->
+                    <div class="interna-coluna_esquerda">
+                        <p class="footerBloco">
+                            <h2><span class="tituloInterno txt-shadow"><strong>Power Ranger</strong> vira lutador de MMA e quer enfrentar <strong>Anderson Silva</strong></span></h2>
+                        </p>
+                    	<div class="boxFonte">
+                        	<div class="float_r">
+                            	<a href="#"><img src="img/btLer.png" title="Ler depois"></a>
+                                &nbsp;
+                                <a href="#"><img src="img/btFacebook.png" title="Facebook"></a>
+                                &nbsp;
+                                <a href="#"><img src="img/btTwitter.png" title="Twitter" ></a>
+                                &nbsp;
+                                <a href="#"><img src="img/btEnviar.png" title="Enviar"></a>
+                            </div>
+                            <!-- Fonte -->
+                            <p class="fixFonte">
+                                20/09/2013 - 21h - Atualizado em 20/09/2013 - 14h25<br/>
+                                Fonte: <span class="tituloFonte">Fulano Detal</span>
+                            </p>
+                            <!--  -->
+                        </div>
+                        
+                        <!-- Breve descrição -->
+                        <div class="tituloBloco texto-cinza_claro" style="margin-bottom:00px">
+                            <h3><strong>Ator que interpreta o Ranger Branco está invicto nos octógnos e desafiou o brasileiro Anderson Silva</strong></h3>
+                        </div>
+                        <!--  -->
+
+                        <br/>
+                        <!-- Full descrição pcom imagem-->
+                        Foto: Fulano Detal<br/>
+                        <div class="tituloBloco">
+                            <!-- FOTO -->
+                            <div class="moldura">
+                                <img src="img/layer_3.png" width="300px">
+                                <p style="padding:5px">Jason Frank, ator do seriado Power Ranger, virou lutador de MMA</p>
+                            </div>
+                            <!--  -->
+                        
+                            <h4>
+                                Caso vença o americano Chris Weldman na revanche da disputa do cinturão dos médios do UFC, marcada para o final do ano, o brasileiro Anderson Silva pode ter um próximo adversário já definido.
+                                Ao menos é o que gostaria o ator e agora também lutador de MMA Jason Frank, famoso por interpretar o Power Ranger verde na primeira temporada(e depois também o Ranger Branco) Tommy.<br/><br/>
+                                Para realizar esse sonho, o lutador iniciou uma <span class="texto-azul_claro"><strong>campanha nas redes sociais</strong></span> e imaginou como seria um combate contra o ex-campeão do UFC. "Eu adoraria enfrentá-lo. Eu gosto do Anderson Silva por causa do seu muay thai, é um dos melhores", elogiou o ator, que admitiu. "Mas, se ele levasse a sério, venceria. É um grande lutador."
+                                Em seu Facebook oficial, Jason Frank que esteve no Brasil recentemente, oficializou o pedido: "Ok, ok. Então eu quero me testar contra Anderson haha", disse ele. "Seria uma boa maneira de levantardinheiro para crianças no Brasil, né? Vamos lá, Brasil, façam acontecer. (Façam) meu sonho se realizar desta vez."</h4>
+                                <br/><br/>
+                                <h4><strong>Ator está invicto em sua carreira no MMA</strong><br/>
+                                A fama adquirida com o seriado Power Ranger ainda é o principal ganha-pão de Jason David Frank, que admite que as técnicas de artes marciais usadas nas gravações o ajudam em suas lutas. "Tem muitos chutes que eu uso, sou um kicker. às vezes você dá um chute e as pessoas ficam se perguntando 'o que foi isso?'. Os golpes dos filmes funcionam. Eu não posso morfar, mas posso fazer coisas legais". brinca, em alulsão à famosa frase usada na cena em que os personagens se transformavam em super-heróis.</h4><br/>
+
+                            <!-- SAIBA MAIS -->
+                            <div class="fundoColuna moldura box-shadow">
+                                <h3><a href="#">SAIBA MAIS</a></h3><br/>
+                                <div class="boxPadrao boxTexto boxGrade">
+                                    <div class="tituloBloco">
+                                        <h4><a href="#"><strong>Lutadores de MMA são os mais bem pagos da atualidade</strong></a></h4>
+                                    </div>
+                                </div>
+                                
+                                <div class="boxPadrao boxTexto boxGrade">
+                                    <div class="tituloBloco">
+                                        <h4><a href="#"><strong>Lutadores de MMA são os mais bem pagos da atualidade</strong></a></h4>
+                                    </div>
+                                </div>
+                                
+                                <div class="boxPadrao boxTexto boxGrade">
+                                    <div class="tituloBloco">
+                                        <h4><a href="#"><strong>Lutadores de MMA são os mais bem pagos da atualidade</strong></a></h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--  -->
+
+                            <h4>
+                                Caso vença o americano Chris Weldman na revanche da disputa do cinturão dos médios do UFC, marcada para o final do ano, o brasileiro Anderson Silva pode ter um próximo adversário já definido.
+                                Ao menos é o que gostaria o ator e agora também lutador de MMA Jason Frank, famoso por interpretar o Power Ranger verde na primeira temporada(e depois também o Ranger Branco) Tommy.<br/><br/>
+                                Para realizar esse sonho, o lutador iniciou uma <span class="texto-azul_claro"><strong><a href="#">campanha nas redes sociais</a></strong></span> e imaginou como seria um combate contra o ex-campeão do UFC. "Eu adoraria enfrentá-lo. Eu gosto do Anderson Silva por causa do seu muay thai, é um dos melhores", elogiou o ator, que admitiu. "Mas, se ele levasse a sério, venceria. É um grande lutador."
+                                Em seu Facebook oficial, Jason Frank que esteve no Brasil recentemente, oficializou o pedido: "Ok, ok. Então eu quero me testar contra Anderson haha", disse ele. "Seria uma boa maneira de levantardinheiro para crianças no Brasil, né? Vamos lá, Brasil, façam acontecer. (Façam) meu sonho se realizar desta vez."
+                            </h4>
+                            <br/><br/>
+
+                            <!-- QUOTE -->
+                             <div class="quote">
+                                <h4 class="texto-cinza_claro">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/>
+                                    Vivamus sit amet dolor dolor. Fusce auctor sapien dolor, ut feugiat risus rutrum non. Nam hendrerit posuere egestas. Nam risus mi, <br/><br/>
+                                    Vivamus sit amet dolor dolor. Fusce auctor sapien dolor, ut feugiat risus rutrum non. Nam hendrerit <br/>
+                                </h4>
+                             </div>
+                             <!--  -->
+                             <br/><br/>
+
+                             <!-- GALERIA DE FOTOS -->
+                             <div>
+                                <h4><strong>Carreira meteórica</strong><br/>
+                                <span>Confira as fotos de suas principais lutas ao longo da carreira</span>
+                                <!-- PLUGIN GALERIA -->
+                                <div align="center">
+                                    <img src="img/foto1.png" id="galeria">
+                                </div>
+                                <div class="wrap_galeria" style="margin-left:15px">
+                                    <div class="frame" id="centro">
+                                        <ul class="clearfix">
+                                            <li><img src="img/thumb1.png" width="100px" class="thumb" img-x="img/foto1.png"></li>
+                                            <li><img src="img/thumb1.png" width="100px" class="thumb" img-x="img/thumb1.png"></li>
+                                            <li><img src="img/thumb1.png" width="100px" class="thumb" img-x="img/banner1.png"></li>
+                                            <li><img src="img/thumb1.png" width="100px" class="thumb"></li>
+                                            <li><img src="img/thumb1.png" width="100px" class="thumb"></li>
+                                            <li><img src="img/thumb1.png" width="100px" class="thumb"></li>
+                                            <li><img src="img/thumb1.png" width="100px" class="thumb"></li>
+                                            <li><img src="img/thumb1.png" width="100px" class="thumb"></li>
+                                            <li><img src="img/thumb1.png" width="100px" class="thumb"></li>
+                                            <li><img src="img/thumb1.png" width="100px" class="thumb"></li>
+                                            <li><img src="img/thumb1.png" width="100px" class="thumb"></li>
+                                            <li><img src="img/thumb1.png" width="100px" class="thumb"></li>
+                                            <li><img src="img/thumb1.png" width="100px" class="thumb"></li>
+                                            <li><img src="img/thumb1.png" width="100px" class="thumb"></li>
+                                            <li><img src="img/thumb1.png" width="100px" class="thumb"></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="controls center">
+                                        <button class="btn prev"><i class="icon-chevron-left"></i> prev</button>
+                                        <button class="btn next">next <i class="icon-chevron-right"></i></button>
+                                    </div>
+                                </div>
+                                <!--  -->
+                                
+                                <span>
+                                    Em seu Facebook oficial, Jason Frank, que esteve no brasil recentemente, oficializou o pedido: "Ok, ok. Então eu quero me testar contra Anderson Haha",
+                                    disse ele. "Seria uma boa maneira de levantar dinheiro para crianças no Brasil, né? Vamos lá, Brasil, façam acontecer.(Façam) meu sonho se realizar desta vez."
+                                </span>
+                                <br/><br/>
+                                <span>Fonte: </span><span class="texto-azul_claro"><strong><a href="#">Reuters</a></strong></span>
+                             </div>
+                             <!--  -->
+                             <br/><br/>
+                             <!-- FACEBOOK COMENTÁRIOS -->
+                                <div class="col-title texto-cinza_escuro facebook">
+                                    <div class="tituloInterno">
+                                        <div style="float:left">
+                                            COMENTE
+                                        </div>
+                                        <p  class="titulo-comentario" align="right">
+                                            Os comentários são de responsabilidade única dos autores
+                                        </p>
+                                    </div>
+                                    <div class="fb-comments" data-href="http://gazetaonline.globo.com/_conteudo/2013/11/noticias/cidades/1469124-vitima-reage-a-assalto-e-fere-adolescente-que-tentou-roubar-moto-com-facada.html" data-numposts="5" data-colorscheme="light"></div>
+                                </div>
+                             <!--  -->
+                        </div>
+                        <!--  -->
+                    </div>
+                    
+                    <!-- COLUNA 1 -->
+                    <div class="col-esquerda">
+
+                        <!-- ESPORTES -->
+                    	<div class="fundoColuna">
+        					<table width="100%">
+                            	<tr>
+                                	<td align="left">VEJA MAIS NA CAPA</td>
+                                    <td align="right"><h3 class="texto-verde_escuro"><strong><a href="#">ESPORTES ></a></strong></h3></td>
+                                </tr>
+                            </table>
+                            <br/>
+                            <div class="bg-branco " >
+                            	<h4><strong><a href="#">Lutadores de MMA são os mais bem pagos da atualidade</strong></a></h4>
+                            </div>
+                        </div>
+                        <br/>
+
+                        <!-- MAIS LIDAS -->
+                        <div class="fundoColuna" style="padding:2px">
+                            <table width="100%">
+                                <tr height="50px">
+                                    <td align="center"><h2>MAIS LIDAS</h2></td>
+                                    <td align="right"><h5 class="texto-verde_escuro" style="font-size:11pt;"><strong><a href="#">ESPORTES ></a></strong></h5></td>
+                                </tr>
+                            </table>
+                            <div class="bg-branco">
+                                <table width="100%">
+                                        <tr height="70px">
+                                            <td align="left" width="15px">
+                                                <h1 class="texto-cinza_claro">1</h1>
+                                            </td>
+                                            <td width="20px" align="left">
+                                                <img src="img/stack_up.png">
+                                            </td>   
+                                            <td align="left" width="">
+                                                <h4><strong><a href="#">Senado dos EUA aprova ataque aéreo à Síria</a></strong></h4>
+                                            </td>
+                                        </tr>
+
+                                        <tr height="70px">
+                                            <td align="left" width="15px">
+                                                <h1 class="texto-cinza_claro">2</h1>
+                                            </td>
+                                            <td width="20px" align="left" valign="center">
+                                                <img src="img/stack_down.png">
+                                            </td>   
+                                            <td align="left" width="">
+                                                <h4><strong><a href="#">Flamengo perde mais uma no Maracanã e entra para o Z4</a></strong></h4>
+                                            </td>
+                                        </tr>
+
+                                        <tr height="70px">
+                                            <td align="left" width="15px">
+                                                <h1 class="texto-cinza_claro">3</h1>
+                                            </td>
+                                            <td width="20px" align="left" valign="center">
+                                              
+                                            </td>   
+                                            <td align="left">
+                                                <h4><strong><a href="#">BroBrother cancela show no Rock in Rio. Fãs ficam bolados.</a></strong></h4>
+                                            </td>
+                                        </tr>
+
+                                        <tr height="70px">
+                                            <td align="left" width="15px">
+                                                <h1 class="texto-cinza_claro">4</h1>
+                                            </td>
+                                            <td width="20px" align="left" valign="center">
+                                             
+                                            </td>   
+                                            <td align="left">
+                                                <h4><strong><a href="#">Medos curiosos. Qual é seu maior medo?</a></strong></h4>
+                                            </td>
+                                        </tr>
+
+                                        <tr height="70px">
+                                            <td align="left" width="15px">
+                                                <h1 class="texto-cinza_claro">5</h1>
+                                            </td>
+                                            <td width="20px" align="left" valign="center">
+                                                <img src="img/stack_up.png">
+                                            </td>   
+                                            <td align="left">
+                                                <h4><strong><a href="#">Senado dos EUA aprova ataque aéreo à Síria</a></strong></h4>
+                                            </td>
+                                        </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <br/>
+                        <!-- PUBLICIDADE -->
+                        <div>
+                            <span>PUBLICIDADE</span>
+                            <a href="#"><img src="img/banner1.png"></a>
+                        </div>
+                    </div>
+                    <!--  -->
+              </div>
+        </div>
+        <!-- SEGUNDA PARTE -->
+        <div class="wrap" align="center" style="padding-bottom:30px;margin-top:20px">
+            <div class="box-shadow" align="left">
+                <div class="col-bot">
+                    <div class="tituloInterno">
+                        LEIA MAIS
+                    </div>
+                </div>
+                <br clear="all"/>
+                <br/>
+                <br/>
+                <!-- LEIA -->
+                <div class="box">
+                    <h4>Separamos um conteúdo especial para você, baseado em suas leituras recentes.</h4>
+                    <p align="center" class="pull-down"><input type="button" value="ACESSAR MINHA CONTA" name="acessar" class="bt-acesso"></p>
+                </div>
+               
+                <!--  -->
+
+                <!-- DIREITA -->
+                <div class="boxPadrao boxFoto boxGrade">
+                    <div class="headerBloco">
+                        <div class="row">
+                            <span class="pull-left"><span class="icon-camera"></span></span>
+                            <span class="lerdepois pull-right texto-branco"><span class="hide">LER DEPOIS</span> <span class="icon-plus"></span></span>
+                        </div>    
+                    </div>
+
+                    <div class="footerBloco">
+                        <span class="nomeSessao texto-verde_escuro">NOVO IPHONE</span>
+                        <div class="tituloBloco">
+                            <h4>Lançamento do novo iPhone 5S cria enormes filas em frente a lojas</h4>
+                        </div>
+                    </div>
+
+                    <div class="imagemBloco boxRow3 boxCol1">
+                        <img src="img/loja.jpg" width="400px"/>
+                    </div>
+                </div>
+                <!--  -->
+
+                <!-- MEIO I -->
+                <div class="box fixPos">
+                    <div class="boxPadrao boxTexto boxGrade" align="center">
+                        <div class="sessaoBloco">
+                            <div class="row">
+                                <span class="pull-left texto-azul_claro"><span class="nomeSessao">CENTRO COMERCIAL</span></span>
+                                <span class="lerdepois pull-right"><span class="hide">LER DEPOIS</span> <span class="icon-plus"></span></span>
+                            </div>    
+                        </div>
+
+                        <div class="tituloBloco" align="left">
+                            <h4>Presos de <strong>alta periculosidade</strong> voltam ao Estado</h4>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+
+                <!-- MEIO II -->
+                <div class="box" style="margin-left:0px;width:350px">
+                    <div class="boxPadrao boxTexto boxGrade" align="center">
+                        <div class="sessaoBloco">
+                            <div class="row">
+                                <span class="pull-left texto-azul_claro"><span class="nomeSessao">CENTRO COMERCIAL</span></span>
+                                <span class="lerdepois pull-right"><span class="hide">LER DEPOIS</span> <span class="icon-plus"></span></span>
+                            </div>    
+                        </div>
+
+                        <div class="tituloBloco" align="left">
+                            <h4>Presos de <strong>alta periculosidade</strong> voltam ao Estado</h4>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <br clear="all"/>
+                <br/>
+            </div>
+        </div>
+        <!--  -->
+    </div>
+</div>
+<!-- footer -->
+<script type="text/javascript" language="javascript" src="js/controle.js"></script>
+</body>
+</html>
+

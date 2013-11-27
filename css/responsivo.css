@@ -1,0 +1,108 @@
+
+
+
+/* TABLET 
+=============================================================*/
+@media (max-width: 989px) {
+	.hidden-dsk {
+		display: block !important;
+	}
+	.hidden-mob {
+		display: none !important;
+	}
+
+	
+	.container {
+		width: 665px;
+		margin: 0 auto;
+		max-width: 665px !important;
+	}
+
+	#wrap {
+		margin-top:80px;
+	}
+
+	#barra-topo-menu .navbar-menu li a {
+		padding: 15px 5px;
+	}
+	#barra-fixa {
+		position: fixed;
+	}
+
+	#col-colunas {
+		margin-right: 0;
+	}
+	#col-blogs {
+		float: none;
+		width: 655px;
+		margin-bottom: 30px;
+		overflow: hidden;
+	}
+
+	.col-dsksize-full {
+		width: 665px;
+	}
+	
+
+
+}
+
+
+
+/* DESKTOP 
+=============================================================*/
+@media (min-width: 990px) {
+	.hidden-dsk {
+		display: none !important;
+	}
+	.hidden-mob {
+		display: block !important;
+	}
+
+	#wrap {
+		margin-top:175px;
+	}
+
+	#barra-fixa {
+		position: fixed;
+	}
+
+}
+
+
+
+/* ARROW 
+=============================================================*/
+@media (max-width: 1190px) {
+	#prevSite.navEditoria {
+		left: -55px;
+	}
+	#prevSite.navEditoria:hover {
+		left: 0px;
+	}
+	#prevSite.navEditoria .arrow {
+		background-position: 62px 50%;
+		background-size: 10px;
+	}
+	#prevSite.navEditoria:hover .arrow {
+		background-position: center;
+		background-size: 30px;
+	}
+
+	#nextSite.navEditoria {
+		right: -55px;
+	}
+	#nextSite.navEditoria:hover {
+		right: 0px;
+	}
+	#nextSite.navEditoria .arrow {
+		background-position: 10px 50%;
+		background-size: 10px;
+	}
+	#nextSite.navEditoria:hover .arrow {
+		background-position: center;
+		background-size: 30px;
+	}
+
+	
+}

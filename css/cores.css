@@ -1,0 +1,120 @@
+@font-face {
+	font-family: 'FuturaBT-Medium';
+	src: url('../fonts/proximanova/futumd.eot');
+	src: url('../fonts/proximanova/futumd.eot?#iefix') format('embedded-opentype'),
+			 url('fontes/futumd.woff') format('woff'),
+			 url('fontes/futumd.ttf') format('truetype'),
+			 url('fontes/futumd.svg#futumd') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/* CORES 
+=============================================================*/
+
+
+
+.texto-preto,
+.texto-preto a {
+	color:#000;
+}
+
+.texto-branco,
+.texto-branco a {
+	color:#FFF;
+}
+.texto-azul_claro,
+.texto-azul_claro a {
+	color:#598ab7;
+}
+.bordaMenu-azul_claro {
+	border-bottom:3px solid #598ab7 !important;
+}
+.hover-azul_claro:hover {
+	border-bottom: 3px solid #598ab7 !important;
+}
+
+
+.texto-azul_escuro,
+.texto-azul_escuro a {
+	color:#2b5f8f;
+}
+.bordaMenu-azul_escuro {
+	border-bottom:3px solid #2b5f8f !important;
+}
+.hover-azul_escuro:hover {
+	border-bottom: 3px solid #2b5f8f !important;
+}
+
+
+
+.texto-amarelo_escuro,
+.texto-amarelo_escuro a {
+	color:#ebab00;
+}
+.bordaMenu-amarelo_escuro {
+	border-bottom:3px solid #ebab00 !important;
+}
+.hover-amarelo_escuro:hover {
+	border-bottom: 3px solid #ebab00 !important;
+}
+
+
+.texto-roxo_escuro,
+.texto-roxo_escuro a {
+	color:#5d3870;
+}
+.bordaMenu-roxo_escuro {
+	border-bottom:3px solid #5d3870 !important;
+}
+.hover-roxo_escuro:hover {
+	border-bottom: 3px solid #5d3870 !important;
+}
+
+
+.texto-verde_escuro,
+.texto-verde_escuro a {
+	color:#517131;
+}
+.bordaMenu-verde_escuro {
+	border-bottom:3px solid #517131 !important;
+}
+.hover-verde_escuro:hover {
+	border-bottom: 3px solid #517131 !important;
+}
+
+
+.texto-vermelho_claro,
+.texto-vermelho_claro a {
+	color:#a43935;
+}
+.bordaMenu-vermelho_claro {
+	border-bottom:3px solid #a43935 !important;
+}
+.hover-vermelho_claro:hover {
+	border-bottom: 3px solid #a43935 !important;
+}
+
+
+.texto-cinza_claro,
+.texto-cinza_claro a {
+	color:#88868b;
+}
+.bordaMenu-cinza_claro {
+	border-bottom:3px solid #88868b !important;
+}
+.hover-cinza_claro:hover {
+	border-bottom: 3px solid #88868b !important;
+}
+
+.texto-cinza_escuro,
+.texto-cinza_escuro a {
+	color:#333;
+}
+.bordaMenu-cinza_escuro {
+	border-bottom:3px solid #333 !important;
+}
+.hover-cinza_escuro:hover {
+	border-bottom: 3px solid #333 !important;
+}

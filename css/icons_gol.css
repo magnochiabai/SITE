@@ -1,0 +1,50 @@
+/* icons
+=============================================================*/
+[class^="icongol-small-"],
+[class*=" icongol-small-"] {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: text-top;
+  background-image: url("../img/sprites.png");
+  background-position: 20px 20px;
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+
+[class^="icongol-regular-"],
+[class*=" icongol-regular-"] {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  margin-top: 1px;
+  *margin-right: .3em;
+  line-height: 36px;
+  vertical-align: text-top;
+  background-image: url("../img/sprites.png");
+  background-position: 36px 36px;
+  background-repeat: no-repeat;
+}
+
+[class^="icongol-big-"],
+[class*=" icongol-big-"] {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin-top: 1px;
+  *margin-right: .3em;
+  line-height: 100px;
+  vertical-align: text-top;
+  background-image: url("../img/sprites.png");
+  background-position: 100px 100px;
+  background-repeat: no-repeat;
+}
+
+
+.icongol-small-arrowdown {
+  background-position: -140px -280px;  
+}
+.icongol-small-arrowup {
+  background-position: -120px -280px;  
+}
+

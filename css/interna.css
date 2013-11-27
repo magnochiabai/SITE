@@ -1,0 +1,450 @@
+/* /////////////////////////////////////////////////////////////////////
+/* LINKS INTERNOS */
+/* //////////////////////////////////////////////////////////////////*/
+
+/* GERAL */
+.float_l{
+	float:left;
+}
+/* NOTICIAS */
+.boxInterno{
+	width:670px;
+}
+.boxFonte{
+	border-bottom:solid 1px #CCC;
+	border-top:solid 1px #CCC;
+	padding: 10px 10px 0px 0px;
+	color:gray;
+	font-size:13px
+}
+
+.tituloFonte{
+	color:#3880c2;
+	font-weight:bold;
+}
+
+.boxDescricao{
+	color:gray;
+	font-size:15pt;
+	margin-top:20px;
+}
+
+.interna-coluna_esquerda{
+	width:630px;
+	padding:10px;
+	float:left;
+}
+
+.interna-coluna_esquerda .float_r{
+	float:right;
+}
+
+.moldura{
+	
+	width:300px;
+	float:left;
+	margin-right:35px;
+	margin-bottom:18px;
+}
+.interna-coluna_esquerda .tituloBloco{
+	padding:0px;
+}
+.tituloInterno{
+	font-size:28pt;
+}
+.fundoColuna{
+	background-image:url(../img/listrado-pattern.png);
+	padding:8px;
+	margin-bottom:10px
+}
+.boxFonte .fixFonte{
+	margin-bottom:10px;
+	font-size:11pt;
+}
+.bg-branco{
+	background:white;
+	padding:15px
+}
+.space_small{
+	margin-bottom: 8px;
+}
+.txt-shadow{
+	text-shadow:1px 1px 1px #c0c0c0;
+}
+
+
+.quote{
+	background-image:url(../img/quote.png);
+	background-repeat: no-repeat;
+	padding-left:75px;
+}
+.quote .texto-cinza_claro{
+	font-family: "Chaparral-Pro",sans-serif;
+	font-size:15pt;
+	font-style: italic;
+	color:#888;
+}
+
+
+.titulo-comentario{
+	font-size:10pt;
+	padding-top:15px;
+	padding-right:7px;
+}
+
+
+.bt-acesso{
+	font-family: "ProximaNova-Light",sans-serif;
+	font-size: 15px;
+	color:white;
+	background:#a92c28;
+	padding:15px;
+	border:none;
+	font-weight:bold;
+	box-shadow:1px 1px 1px #c0c0c0;
+	cursor:pointer;
+}
+.bt-acesso:hover{
+	background: #902c28;
+}
+.bt-acesso:active{
+	box-shadow: inset 2px 2px 4px black;
+}
+
+.box-shadow{
+	box-shadow:1px 1px 2px #c0c0c0;
+}
+.box-shadow .boxGrade {
+	position:relative;
+	margin-bottom:5px;
+	
+}
+.box-shadow .boxGrade:hover {
+	margin-top: -3px;
+	transition:all .1s ease-in-out; 
+    -o-transition:all .1s ease-in-out; 
+    -moz-transition:all .1s ease-in-out; 
+    -webkit-transition:all .1s ease-in-out;
+}
+
+
+.boxGrade:hover {
+	border-bottom: 3px solid #555;
+}
+
+
+.wrap .col-bot{
+	background-image: url('../img/listrado-pattern.png');
+	position:absolute;
+	width:995px;
+	padding-left:25px;
+	height: 30px;
+}
+.wrap .box{
+	margin-top:10px;
+	margin-left:25px;
+	width:290px;
+	margin-right: 0px;
+	float:left;
+}
+.wrap .box-shadow{
+	width:1020px;
+	background:#eee;
+	padding-top: 20px;
+	margin-bottom:30px;
+}
+.wrap .box-shadow .box{
+	width:270px;
+}
+
+.wrap .box-shadow .boxFoto{
+	width:340px;
+	float:right;
+	margin-right:20px;
+	margin-top:-42px;
+	height:201px;
+}
+.wrap .box-shadow .fixPos{
+	margin-left:0px;
+	margin-top:-43px;
+	width:350px;
+}
+.col-esquerda{
+	float:left;
+	width:300px;
+	padding:20px;
+}
+
+.box .tituloBloco h4, .boxFoto .tituloBloco h4{
+	font-weight:bold;
+	color:#333;
+}
+.box .boxGrade{
+	padding:7px
+}
+
+
+.tituloBloco .fundoColuna .boxPadrao{
+	padding:10px;
+}
+.interna-coluna_esquerda .tituloBloco h4{
+	line-height: 23px;
+	letter-spacing: 0.01em;
+}
+.interna-coluna_esquerda .boxFonte{
+	margin:25px 0px 25px 0px;
+	padding-bottom: 8px
+}
+
+.box .boxGrade .tituloBloco {
+	width:90%;
+}
+.box .pull-down{
+	margin-top:49px;
+}
+
+/* CINEMA */
+.cinema .fundoColuna{
+	padding:2px;
+	border:solid 1px #ddd;
+}
+.cinema .moldura{
+	width:210px;
+	margin-right:25px;
+}
+
+.cinema .moldura .tituloFoto-small{
+	font-size:12px;
+}
+
+.cinema h2{
+	margin:0px;
+	padding:0px;
+}
+.cinema h1{
+	font-size:21pt;
+}
+.cinema .boxFonte{
+	margin-top:5px;
+}
+
+.info_filme{
+	margin-top:10px;
+	font-family: "Chaparral-Pro",sans-serif;
+	line-height: 24px;
+	letter-spacing: -0.5px;
+}
+.info_filme a{
+	font-size:12pt;
+	font-weight: bold;
+}
+.info_filme p{
+	font-size: 11pt;
+}
+.info_filme p label{
+	font-weight:bold;
+}
+
+.cinema .boxFonte .fixfonte{
+	border:solid 1px;
+}
+.cinema .boxFonte{
+	height:40px;
+	margin-bottom:20px;
+
+}
+
+.cinema .boxFonte .infoFonte{
+	padding:10px;
+	font-size:11pt;
+}
+
+.infoFonte p{
+	margin-right:25px;
+	float:left;
+}
+.infoFonte .texto-cinza_escuro{
+	color:#333;
+	width:160px;
+}
+.infoFonte label{
+	font-size:9pt;
+	font-weight: bold;
+}
+
+.cinema .bg-branco .padding{
+	padding:10px;
+}
+.cinema .bg-branco .padding h4{
+	font-size:12pt;
+}
+
+.col-Titulo{
+	padding:10px;
+	font-weight: bold;
+}
+.col-Titulo .titulo-esquerda{
+	font-size:17pt;
+	float:left;
+}
+.col-Titulo .titulo-direita{
+	float:right;
+	font-size:12pt;
+}
+.cima .titulo-esquerda{
+	font-size:10pt;
+	font-weight: normal;
+	margin-top:5px;
+}
+.cima .titulo-direita{
+	font-size:14pt;
+}
+
+.baixo .titulo-direita{
+	font-size:11pt;
+	margin-top:5px;
+}
+.fundoColuna .col-Titulo .cima{
+	font-size:10pt;
+	font-weight: normal;
+}
+
+.col-Cartaz{
+	background-image:url(../img/listrado-pattern.png);
+	padding:15px;
+	margin-top:20px;
+	color:#333;
+}
+.col-Cartaz h4{
+	font-size:17pt;
+	color:#333;
+	font-weight: bold;
+}
+.col-Cartaz p{
+	margin-top: 10px;
+	font-size: 12pt;
+	color:gray;
+}
+.col-Cartaz .boxGrade{
+	padding:15px;
+	margin-bottom: 10px;
+}
+.col-Cartaz h5{
+	font-size: 11pt;
+	float:left;
+	margin-right: 10px;
+}
+.col-Cartaz .boxGrade .tituloBloco .logo{
+	margin-top:20px;
+}
+#col-Trailler{
+	margin-top:25px;
+}
+#col-Trailler .col-Criticas{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+#col-Trailler .col-Criticas .col-write_criticas img{
+	margin-right:10px;
+}
+#col-Trailler .col-Criticas .col-write_criticas strong{
+	font-size:12pt;
+	letter-spacing: -0.5px;
+}
+#col-Trailler .col-Criticas .col-write_criticas .description{
+	margin-top:10px;
+	font-size:13pt;
+	font-weight: bold;
+	font-style: italic;
+	width:520px;
+	margin-left:110px;
+}
+#col-Trailler .col-Criticas .col-write_criticas .description .fixPos{
+	float:right;
+	margin-left:10px;
+	margin-bottom: 10px;
+}
+#col-Trailler h1{
+	font-size:16pt;
+	margin-bottom:10px;
+}
+
+/* EVENTOS */
+.eventos .interna-coluna_esquerda{
+	padding-top:0px;
+}
+.eventos .interna-coluna_esquerda h1{
+	font-size: 30pt;
+	font-weight: bold;
+}
+.eventos .interna-coluna_esquerda .boxFonte{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.eventos .interna-coluna_esquerda .infoFonte p{
+	width:54%;
+}
+.eventos .interna-coluna_esquerda .infoFonte .texto-cinza_claro strong{
+	font-size: 11pt;
+}
+.eventos .interna-coluna_esquerda .tituloInterno h3{
+	font-size: 15pt;
+	margin: 0px;
+	padding:0px;
+}
+.eventos .interna-coluna_esquerda .tituloBloco{
+	font-size:10pt;
+}
+.eventos .interna-coluna_esquerda h4{
+	margin-top:10px;
+	line-height: 23px;
+}
+.eventos .interna-coluna_esquerda h5{
+	font-weight: normal;
+	font-size: 8pt;
+	margin-bottom:5px;
+	letter-spacing: -0.02em;
+}
+.eventos .interna-coluna_esquerda .col-Publicidade{
+	margin-top:20px;
+}
+.eventos .interna-coluna_esquerda .box-shadow{
+	margin-top:20px;
+	width:600px;
+	padding:15px;
+}
+.eventos .interna-coluna_esquerda .box-shadow .info{
+	font-size: 12pt;
+	margin-top:10px;
+}
+.eventos .interna-coluna_esquerda .box-shadow .info a{
+	font-weight: bold;
+}
+.eventos .bg-branco .row h2{
+	font-size: 70pt;
+}
+.facebook{
+	width:630px;
+	margin-top:20px;
+}
+.interna-coluna_esquerda .facebook .tituloInterno, .titulo-comentario {
+	 width:630px;
+}
+/*-----------------------
+	1 Coluna
+	*/
+/*.grade3Cols .boxCol1.boxRow3 .imagemBloco img {
+	margin: -150px 0 0 -160px;
+}
+.grade3Cols .boxCol1.boxRow2 .imagemBloco img {
+	margin: -97px 0 0 -160px;
+}
+
+
+
+/*-----------------------
+	2 Colunas
+	*
+.grade3Cols .boxCol2.boxRow3 .imagemBloco img {
+	margin: -150px 0 0 -327px;
+}*/
